@@ -1,12 +1,22 @@
 {
   "current": {
-    "versionName": "5.0.0.3",
-    "versionCode": 5003,
-    "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/x1/X1_5.0.0.3.apk",
-    "changelog": "5.0.0.3：版本信息源迁移至 Releases 仓库",
-    "updateTime": "2026-10-24 21:23:21",
-    "fileName": "X1_5.0.0.3.apk",
-    "size": 10753491
+    "versionName": "5.0.0.5",
+    "versionCode": 5005,
+    "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/x1/X1_5.0.0.5.apk",
+    "changelog": "5.0.0.5：导入导出覆盖全部本地配置，导入改为预览+按段选择\n\n- 导出：新增 schemaVersion/appVersion/导出时间；纳入设置项（调试悬浮窗、开机自动重连、隐身模式），文件名带版本号\n- 导出落盘三级降级：Downloads(MediaStore) → 应用专属外部目录；成功提示带路径/大小/条数\n- 导入：拆成 read(解析) + apply(写库)，先弹预览列出每段条数，逐段勾选；不再只有群/好友两个盲开关\n- 导入兼容旧备份（无 schemaVersion、filterKeywords 旧列名、settings 只有 debugFloating）；来自更高版本的备份给出提示\n- 导入拒绝在任务运行中执行；重复选文件/取消都会清掉临时文件\n- 设置项导入后经 settingsRevision 让设置页重新同步开关与隐藏副作用\n- 修复 X2 收窄能力：AccessibilityServiceInfo 无拷贝构造，改为备份 packageNames/eventTypes",
+    "updateTime": "2026-10-29 17:19:13",
+    "fileName": "X1_5.0.0.5.apk",
+    "size": 10786259
   },
-  "history": []
+  "history": [
+    {
+      "versionName": "5.0.0.3",
+      "versionCode": 5003,
+      "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/x1/X1_5.0.0.3.apk",
+      "changelog": "5.0.0.3：版本信息源迁移至 Releases 仓库",
+      "updateTime": "2026-10-24 21:23:21",
+      "fileName": "X1_5.0.0.3.apk",
+      "size": 10753491
+    }
+  ]
 }
