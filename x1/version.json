@@ -1,14 +1,23 @@
 {
   "current": {
-    "versionName": "5.1.1.2",
-    "versionCode": 5112,
-    "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/x1/Toolbox_5.1.1.2.apk",
-    "changelog": "5.1.1.2：注入日志镜像到运行记录 + 发布回环自愈\n\n- AdbInjectManager.log() 同步镜像一份到 RunLog（带 [注入] 前缀）：排查任务中断时任务日志与注入日志可按时间线对照；通道卡内原有日志保留\n- 附带发布上一提交的看门狗回环自愈（断 WiFi 通道自恢复）\n- 版本 5.1.1.2（versionCode 5112），附签名 APK",
-    "updateTime": "2026-10-30 11:48:39",
-    "fileName": "Toolbox_5.1.1.2.apk",
+    "versionName": "5.1.1.3",
+    "versionCode": 5113,
+    "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/x1/Toolbox_5.1.1.3.apk",
+    "changelog": "5.1.1.3：运行记录分组 + 设置页一行一卡 + 话术复制按钮，附签名 APK\n\n- 运行记录页：删自动滚动开关（恒定自动滚动）；新增「任务记录/注入信息」分组切换\n- 注入日志独立文件 inject_log.txt：任务启动清空不再波及注入/无障碍历史\n- 设置页：数据/隐私与显示/关于拆为一行一卡（EntryRow 统一高度）；悬浮窗收缩/隐身模式/关于改状态胶囊+右箭头；「版本与更新」改名「关于」；ChevronHint 提升为共享组件；新增共享 StatusChip 统一徽标视觉\n- 群发页话术行新增复制按钮\n- 版本 5.1.1.3（versionCode 5113），附签名 APK",
+    "updateTime": "2026-10-30 14:13:59",
+    "fileName": "Toolbox_5.1.1.3.apk",
     "size": 10571742
   },
   "history": [
+    {
+      "versionName": "5.1.1.2",
+      "versionCode": 5112,
+      "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/x1/Toolbox_5.1.1.2.apk",
+      "changelog": "5.1.1.2：注入日志镜像到运行记录 + 发布回环自愈\n\n- AdbInjectManager.log() 同步镜像一份到 RunLog（带 [注入] 前缀）：排查任务中断时任务日志与注入日志可按时间线对照；通道卡内原有日志保留\n- 附带发布上一提交的看门狗回环自愈（断 WiFi 通道自恢复）\n- 版本 5.1.1.2（versionCode 5112），附签名 APK",
+      "updateTime": "2026-10-30 11:48:39",
+      "fileName": "Toolbox_5.1.1.2.apk",
+      "size": 10571742
+    },
     {
       "versionName": "5.1.1.1",
       "versionCode": 5111,
