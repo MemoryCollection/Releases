@@ -1,14 +1,23 @@
 {
   "current": {
-    "versionName": "5.1.1.1",
-    "versionCode": 5111,
-    "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/x1/Toolbox_5.1.1.1.apk",
-    "changelog": "5.1.1.1：注入 daemon 抗清理（setsid）+ 无障碍掉线跨进程对比\n\n- daemon 拉起改 setsid：换新会话+进程组，MIUI 关 WiFi/清后台对 adbd 会话进程组的连坐清理不再波及常驻进程（实验确认普通 ADB 断开杀不掉，但用户实测关 App+关 WiFi 后 daemon 消失，组隔离为标准加固）\n- 服务端启动日志改追加写 + 启动行带时间戳：进程异常死亡的崩溃栈不再被下次拉起覆盖，死亡时间可定位\n- 无障碍状态持久化到 Prefs，启动时跨进程对比：掉线发生在本应用未运行期间时，注入日志明确写出（应用被从后台清理时被系统连带关闭）\n- 启动自检失败补恢复指引：常驻进程不在时提示开 WiFi+无线调试后手动连接\n- 版本 5.1.1.1（versionCode 5111），附签名 APK",
-    "updateTime": "2026-10-30 11:25:33",
-    "fileName": "Toolbox_5.1.1.1.apk",
-    "size": 10571738
+    "versionName": "5.1.1.2",
+    "versionCode": 5112,
+    "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/x1/Toolbox_5.1.1.2.apk",
+    "changelog": "5.1.1.2：注入日志镜像到运行记录 + 发布回环自愈\n\n- AdbInjectManager.log() 同步镜像一份到 RunLog（带 [注入] 前缀）：排查任务中断时任务日志与注入日志可按时间线对照；通道卡内原有日志保留\n- 附带发布上一提交的看门狗回环自愈（断 WiFi 通道自恢复）\n- 版本 5.1.1.2（versionCode 5112），附签名 APK",
+    "updateTime": "2026-10-30 11:48:39",
+    "fileName": "Toolbox_5.1.1.2.apk",
+    "size": 10571742
   },
   "history": [
+    {
+      "versionName": "5.1.1.1",
+      "versionCode": 5111,
+      "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/x1/Toolbox_5.1.1.1.apk",
+      "changelog": "5.1.1.1：注入 daemon 抗清理（setsid）+ 无障碍掉线跨进程对比\n\n- daemon 拉起改 setsid：换新会话+进程组，MIUI 关 WiFi/清后台对 adbd 会话进程组的连坐清理不再波及常驻进程（实验确认普通 ADB 断开杀不掉，但用户实测关 App+关 WiFi 后 daemon 消失，组隔离为标准加固）\n- 服务端启动日志改追加写 + 启动行带时间戳：进程异常死亡的崩溃栈不再被下次拉起覆盖，死亡时间可定位\n- 无障碍状态持久化到 Prefs，启动时跨进程对比：掉线发生在本应用未运行期间时，注入日志明确写出（应用被从后台清理时被系统连带关闭）\n- 启动自检失败补恢复指引：常驻进程不在时提示开 WiFi+无线调试后手动连接\n- 版本 5.1.1.1（versionCode 5111），附签名 APK",
+      "updateTime": "2026-10-30 11:25:33",
+      "fileName": "Toolbox_5.1.1.1.apk",
+      "size": 10571738
+    },
     {
       "versionName": "5.1.1.0",
       "versionCode": 5110,
