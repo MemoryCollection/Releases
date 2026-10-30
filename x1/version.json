@@ -1,14 +1,23 @@
 {
   "current": {
-    "versionName": "5.1.1.0",
-    "versionCode": 5110,
-    "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/x1/Toolbox_5.1.1.0.apk",
-    "changelog": "5.1.1.0：设置页行高统一 + 启动通道自检取代默认重连\n\n- SettingRow 统一最小高度 44dp：带不带开关/副标题，行高节奏一致\n- 系统权限卡四行去掉副标题与底部说明文字（状态胶囊已表达状态），全部收成单行\n- 启动逻辑改为通道自检：常驻进程活着则回环直接接管（不碰 ADB）；不能用才完整重连一次；失败报错停 ERROR，不自动重试。未配对保持 IDLE 不报错\n- 版本 5.1.1.0（versionCode 5110），附签名 APK",
-    "updateTime": "2026-10-30 10:31:16",
-    "fileName": "Toolbox_5.1.1.0.apk",
-    "size": 10571742
+    "versionName": "5.1.1.1",
+    "versionCode": 5111,
+    "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/x1/Toolbox_5.1.1.1.apk",
+    "changelog": "5.1.1.1：注入 daemon 抗清理（setsid）+ 无障碍掉线跨进程对比\n\n- daemon 拉起改 setsid：换新会话+进程组，MIUI 关 WiFi/清后台对 adbd 会话进程组的连坐清理不再波及常驻进程（实验确认普通 ADB 断开杀不掉，但用户实测关 App+关 WiFi 后 daemon 消失，组隔离为标准加固）\n- 服务端启动日志改追加写 + 启动行带时间戳：进程异常死亡的崩溃栈不再被下次拉起覆盖，死亡时间可定位\n- 无障碍状态持久化到 Prefs，启动时跨进程对比：掉线发生在本应用未运行期间时，注入日志明确写出（应用被从后台清理时被系统连带关闭）\n- 启动自检失败补恢复指引：常驻进程不在时提示开 WiFi+无线调试后手动连接\n- 版本 5.1.1.1（versionCode 5111），附签名 APK",
+    "updateTime": "2026-10-30 11:25:33",
+    "fileName": "Toolbox_5.1.1.1.apk",
+    "size": 10571738
   },
   "history": [
+    {
+      "versionName": "5.1.1.0",
+      "versionCode": 5110,
+      "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/x1/Toolbox_5.1.1.0.apk",
+      "changelog": "5.1.1.0：设置页行高统一 + 启动通道自检取代默认重连\n\n- SettingRow 统一最小高度 44dp：带不带开关/副标题，行高节奏一致\n- 系统权限卡四行去掉副标题与底部说明文字（状态胶囊已表达状态），全部收成单行\n- 启动逻辑改为通道自检：常驻进程活着则回环直接接管（不碰 ADB）；不能用才完整重连一次；失败报错停 ERROR，不自动重试。未配对保持 IDLE 不报错\n- 版本 5.1.1.0（versionCode 5110），附签名 APK",
+      "updateTime": "2026-10-30 10:31:16",
+      "fileName": "Toolbox_5.1.1.0.apk",
+      "size": 10571742
+    },
     {
       "versionName": "5.1.0.9",
       "versionCode": 5109,
