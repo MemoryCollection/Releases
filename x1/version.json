@@ -1,14 +1,23 @@
 {
   "current": {
-    "versionName": "5.1.1.6",
-    "versionCode": 5116,
-    "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/x1/Toolbox_5.1.1.6.apk",
-    "changelog": "5.1.1.6：断网自愈不再空转 + 注入日志分级\n\n自愈（保证断 WiFi 后手势仍可用，但不做无用功）：\n- 新增 LanState：判断有无 WiFi/有线（allNetworks 看 TRANSPORT_WIFI/ETHERNET，\n  读不到一律乐观放行）。无 WiFi 时 adbd 已随无线调试关闭，端口扫描与 mDNS 全跳过\n- mDNS 时机收窄（用户定案）：只在 ①手动连接/重启注入/重新配对 ②本进程还没成功过\n  ③回环连续失败 ≥4 拍且距上次 ≥5 分钟 时兜底；其余自动重试只走回环\n  （tls 属性 → 进程内缓存 → /proc/net/tcp(6) 的 LISTEN → 必要时全量扫）\n- tryConnect 增加 allowScan：无 WiFi 时不扫端口，断网期间每轮从「约 70s 空转」\n  变成「约 1s 失败」，不再长时间持 workMutex（手动「连接」随时点得进去）\n- 「跳过发现」日志 10 分钟一条，避免断网期间刷屏\n- daemon 启动日志超过 128KB 只留最后 32KB（保留崩溃现场在尾部）\n\n注入日志分级（一般与报错分开）：\n- RunLog.inject 按内容定级：命中失败关键词落 ERROR，其余落 INFO（以前一律 INFO）\n- 「跳过/初始化中/已接管」不算错误，避免冷启动冒红字淹掉真故障\n- 3 天保留期改为**保留全部级别**（原来按「只留失败」压缩，会把刚写的 INFO 抹掉）\n\n实测：覆盖安装后 daemon 回环接管正常（pid 22527、27183 已建立），\nlogcat 中「尚未初始化完成，本轮跳过」已是 I 级而非 E 级",
-    "updateTime": "2026-10-30 19:58:09",
-    "fileName": "Toolbox_5.1.1.6.apk",
-    "size": 10604854
+    "versionName": "5.1.1.7",
+    "versionCode": 5117,
+    "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/x1/Toolbox_5.1.1.7.apk",
+    "changelog": "5.1.1.7\n· 修复任务启动后读不到微信界面：无障碍能力放开没有真正下发，页面判定恒失败，群发点开始后 7 秒就结束（成功 0、失败 0 且无报错）\n· 无障碍收窄/放开改为 Parcel 深拷贝下发，并加宽档常量兜底与 X2 日志\n· 话术：同一轮内不重复抽取；联系方式改为 85% 概率随机书写方式追加；默认话术池扩到 10 条",
+    "updateTime": "2026-10-30 20:40:45",
+    "fileName": "Toolbox_5.1.1.7.apk",
+    "size": 10604850
   },
   "history": [
+    {
+      "versionName": "5.1.1.6",
+      "versionCode": 5116,
+      "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/x1/Toolbox_5.1.1.6.apk",
+      "changelog": "5.1.1.6：断网自愈不再空转 + 注入日志分级\n\n自愈（保证断 WiFi 后手势仍可用，但不做无用功）：\n- 新增 LanState：判断有无 WiFi/有线（allNetworks 看 TRANSPORT_WIFI/ETHERNET，\n  读不到一律乐观放行）。无 WiFi 时 adbd 已随无线调试关闭，端口扫描与 mDNS 全跳过\n- mDNS 时机收窄（用户定案）：只在 ①手动连接/重启注入/重新配对 ②本进程还没成功过\n  ③回环连续失败 ≥4 拍且距上次 ≥5 分钟 时兜底；其余自动重试只走回环\n  （tls 属性 → 进程内缓存 → /proc/net/tcp(6) 的 LISTEN → 必要时全量扫）\n- tryConnect 增加 allowScan：无 WiFi 时不扫端口，断网期间每轮从「约 70s 空转」\n  变成「约 1s 失败」，不再长时间持 workMutex（手动「连接」随时点得进去）\n- 「跳过发现」日志 10 分钟一条，避免断网期间刷屏\n- daemon 启动日志超过 128KB 只留最后 32KB（保留崩溃现场在尾部）\n\n注入日志分级（一般与报错分开）：\n- RunLog.inject 按内容定级：命中失败关键词落 ERROR，其余落 INFO（以前一律 INFO）\n- 「跳过/初始化中/已接管」不算错误，避免冷启动冒红字淹掉真故障\n- 3 天保留期改为**保留全部级别**（原来按「只留失败」压缩，会把刚写的 INFO 抹掉）\n\n实测：覆盖安装后 daemon 回环接管正常（pid 22527、27183 已建立），\nlogcat 中「尚未初始化完成，本轮跳过」已是 I 级而非 E 级",
+      "updateTime": "2026-10-30 19:58:09",
+      "fileName": "Toolbox_5.1.1.6.apk",
+      "size": 10604854
+    },
     {
       "versionName": "5.1.1.5",
       "versionCode": 5115,
