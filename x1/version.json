@@ -1,14 +1,23 @@
 {
   "current": {
-    "versionName": "5.1.1.3",
-    "versionCode": 5113,
-    "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/x1/Toolbox_5.1.1.3.apk",
-    "changelog": "5.1.1.3：运行记录分组 + 设置页一行一卡 + 话术复制按钮，附签名 APK\n\n- 运行记录页：删自动滚动开关（恒定自动滚动）；新增「任务记录/注入信息」分组切换\n- 注入日志独立文件 inject_log.txt：任务启动清空不再波及注入/无障碍历史\n- 设置页：数据/隐私与显示/关于拆为一行一卡（EntryRow 统一高度）；悬浮窗收缩/隐身模式/关于改状态胶囊+右箭头；「版本与更新」改名「关于」；ChevronHint 提升为共享组件；新增共享 StatusChip 统一徽标视觉\n- 群发页话术行新增复制按钮\n- 版本 5.1.1.3（versionCode 5113），附签名 APK",
-    "updateTime": "2026-10-30 14:13:59",
-    "fileName": "Toolbox_5.1.1.3.apk",
-    "size": 10571742
+    "versionName": "5.1.1.4",
+    "versionCode": 5114,
+    "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/x1/Toolbox_5.1.1.4.apk",
+    "changelog": "5.1.1.4：swipe 抖动补全 + 发送停留拆分 + 悬浮窗收缩居中 + 更新检查缓存穿透 + 群发页/设置页 UI 微调，附签名 APK\n\n- swipe 抖动补全（P0 #3）：服务端步数 ±2 随机、MOVE 间隔 ±2ms、采样点 ±1px 手指微颤、UP ±2px 漂移\n- 发送停留拆两段：longChatStay 开启时进群等待/发送后等待各 1.5~2.5s，总 ~4s 不变\n- 悬浮窗收缩态：标题与呼吸点垂直居中、签名补 1 占位、标题栏 padding 对称\n- 检查更新：URL 时间戳参数 + useCaches=false 穿透 gh.6qu.top 代理缓存\n- 发送配置卡：四格等高、Checkbox 20dp、数值输入 ~40dp 紧凑高度；设置页「关于」版本号去胶囊改裸文字\n- 版本 5.1.1.4（versionCode 5114），附签名 APK",
+    "updateTime": "2026-10-30 14:52:27",
+    "fileName": "Toolbox_5.1.1.4.apk",
+    "size": 10571922
   },
   "history": [
+    {
+      "versionName": "5.1.1.3",
+      "versionCode": 5113,
+      "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/x1/Toolbox_5.1.1.3.apk",
+      "changelog": "5.1.1.3：运行记录分组 + 设置页一行一卡 + 话术复制按钮，附签名 APK\n\n- 运行记录页：删自动滚动开关（恒定自动滚动）；新增「任务记录/注入信息」分组切换\n- 注入日志独立文件 inject_log.txt：任务启动清空不再波及注入/无障碍历史\n- 设置页：数据/隐私与显示/关于拆为一行一卡（EntryRow 统一高度）；悬浮窗收缩/隐身模式/关于改状态胶囊+右箭头；「版本与更新」改名「关于」；ChevronHint 提升为共享组件；新增共享 StatusChip 统一徽标视觉\n- 群发页话术行新增复制按钮\n- 版本 5.1.1.3（versionCode 5113），附签名 APK",
+      "updateTime": "2026-10-30 14:13:59",
+      "fileName": "Toolbox_5.1.1.3.apk",
+      "size": 10571742
+    },
     {
       "versionName": "5.1.1.2",
       "versionCode": 5112,
