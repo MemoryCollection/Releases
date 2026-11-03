@@ -1,14 +1,23 @@
 {
   "current": {
-    "versionName": "5.1.2.0",
-    "versionCode": 5120,
-    "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/x1/Toolbox_5.1.2.0.apk",
-    "changelog": "5.1.2.0 · 风险横幅改为文案分级：营销群的通用反诈提示不再误标风险群，命中高危词（违规/投诉/举报/封禁/限制/诈骗等）才永久跳过，其余横幅照常发送 · 同一群内标题/输入框读屏缓存复用，每群读屏 10~12 次降到 6~7 次 · 发送后确认「发送」按钮消失才计成功，修掉发送失败被静默当成功的 bug（输入框裸读命中外层容器、text 恒空） · 发送按钮与粘贴气泡等待收紧，卡死路径读屏 26 次降到 10 次内 · 横幅正文兜底改为行内受限遍历（-43% 节点），并修掉把聊天广告误当横幅正文的错判 · 清理读屏路径上从不生效的节流死代码",
-    "updateTime": "2026-11-03 11:49:14",
-    "fileName": "Toolbox_5.1.2.0.apk",
-    "size": 10621238
+    "versionName": "5.1.2.1",
+    "versionCode": 5121,
+    "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/x1/Toolbox_5.1.2.1.apk",
+    "changelog": "5.1.2.1 · 读屏改活动窗口快路径，粘贴气泡与输入框各去掉一次无效读屏 · 滑动 MOVE 改 ASYNC：滑动实际时长不再被微信主线程负载拉长（实测 400~600ms 设定跑出 460~960ms） · 悬浮窗拆双窗口：仅标题行可点击（两步确认），分割线/日志区触摸永久穿透，修掉 Android 12+ 遮挡区手动点击被吞的问题 · 收缩态改自适应宽度全圆胶囊 · 发送落库提前到「发送按钮消失」确认后立刻执行，任务中断不再出现已发出未落库→下轮重发 · 呼吸动画熄屏暂停；进度渲染 150ms 节流",
+    "updateTime": "2026-11-03 17:12:38",
+    "fileName": "Toolbox_5.1.2.1.apk",
+    "size": 10621354
   },
   "history": [
+    {
+      "versionName": "5.1.2.0",
+      "versionCode": 5120,
+      "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/x1/Toolbox_5.1.2.0.apk",
+      "changelog": "5.1.2.0 · 风险横幅改为文案分级：营销群的通用反诈提示不再误标风险群，命中高危词（违规/投诉/举报/封禁/限制/诈骗等）才永久跳过，其余横幅照常发送 · 同一群内标题/输入框读屏缓存复用，每群读屏 10~12 次降到 6~7 次 · 发送后确认「发送」按钮消失才计成功，修掉发送失败被静默当成功的 bug（输入框裸读命中外层容器、text 恒空） · 发送按钮与粘贴气泡等待收紧，卡死路径读屏 26 次降到 10 次内 · 横幅正文兜底改为行内受限遍历（-43% 节点），并修掉把聊天广告误当横幅正文的错判 · 清理读屏路径上从不生效的节流死代码",
+      "updateTime": "2026-11-03 11:49:14",
+      "fileName": "Toolbox_5.1.2.0.apk",
+      "size": 10621238
+    },
     {
       "versionName": "5.1.1.9",
       "versionCode": 5119,
