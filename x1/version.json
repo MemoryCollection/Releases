@@ -1,14 +1,23 @@
 {
   "current": {
-    "versionName": "5.1.1.9",
-    "versionCode": 5119,
-    "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/x1/Toolbox_5.1.1.9.apk",
-    "changelog": "5.1.1.9\n· 群同步：未在通讯录的新群人数读不到时记 500 占位（原记 0，会被「最小群人数」门槛误判跳过），真实人数后续同步再覆盖\n· 新群入库改为「已存在则忽略」，不再整行覆盖；避免发送时间戳/轮次/风险标记被抹掉导致的重复群发与风险群复活\n· 退群新群的默认分组统一为「未分」",
-    "updateTime": "2026-11-03 09:47:25",
-    "fileName": "Toolbox_5.1.1.9.apk",
-    "size": 10621234
+    "versionName": "5.1.2.0",
+    "versionCode": 5120,
+    "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/x1/Toolbox_5.1.2.0.apk",
+    "changelog": "5.1.2.0 · 风险横幅改为文案分级：营销群的通用反诈提示不再误标风险群，命中高危词（违规/投诉/举报/封禁/限制/诈骗等）才永久跳过，其余横幅照常发送 · 同一群内标题/输入框读屏缓存复用，每群读屏 10~12 次降到 6~7 次 · 发送后确认「发送」按钮消失才计成功，修掉发送失败被静默当成功的 bug（输入框裸读命中外层容器、text 恒空） · 发送按钮与粘贴气泡等待收紧，卡死路径读屏 26 次降到 10 次内 · 横幅正文兜底改为行内受限遍历（-43% 节点），并修掉把聊天广告误当横幅正文的错判 · 清理读屏路径上从不生效的节流死代码",
+    "updateTime": "2026-11-03 11:49:14",
+    "fileName": "Toolbox_5.1.2.0.apk",
+    "size": 10621238
   },
   "history": [
+    {
+      "versionName": "5.1.1.9",
+      "versionCode": 5119,
+      "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/x1/Toolbox_5.1.1.9.apk",
+      "changelog": "5.1.1.9\n· 群同步：未在通讯录的新群人数读不到时记 500 占位（原记 0，会被「最小群人数」门槛误判跳过），真实人数后续同步再覆盖\n· 新群入库改为「已存在则忽略」，不再整行覆盖；避免发送时间戳/轮次/风险标记被抹掉导致的重复群发与风险群复活\n· 退群新群的默认分组统一为「未分」",
+      "updateTime": "2026-11-03 09:47:25",
+      "fileName": "Toolbox_5.1.1.9.apk",
+      "size": 10621234
+    },
     {
       "versionName": "5.1.1.8",
       "versionCode": 5118,
