@@ -1,14 +1,23 @@
 {
   "current": {
-    "versionName": "5.1.1.8",
-    "versionCode": 5118,
-    "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/x1/Toolbox_5.1.1.8.apk",
-    "changelog": "5.1.1.8\n· 随机话术池开放编辑：群发页新增「随机话术池」卡片，池子存库随备份走；缺话术的分组不再阻断启动，运行时自动回退（未分组 > 池子 > 内置默认）\n· 同义替换规则开放编辑：群发页新增「同义替换规则」卡片，每行「原词=替身1|替身2」，替身留空即删除原词\n· 联系方式 100% 必带，写法删掉「微信」（剩 +V / V： / VX 随机）\n· 发送完返回列表后到点下一个群的间隔加长约 1 秒（2.0~2.8s 随机）",
-    "updateTime": "2026-11-02 18:14:05",
-    "fileName": "Toolbox_5.1.1.8.apk",
+    "versionName": "5.1.1.9",
+    "versionCode": 5119,
+    "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/x1/Toolbox_5.1.1.9.apk",
+    "changelog": "5.1.1.9\n· 群同步：未在通讯录的新群人数读不到时记 500 占位（原记 0，会被「最小群人数」门槛误判跳过），真实人数后续同步再覆盖\n· 新群入库改为「已存在则忽略」，不再整行覆盖；避免发送时间戳/轮次/风险标记被抹掉导致的重复群发与风险群复活\n· 退群新群的默认分组统一为「未分」",
+    "updateTime": "2026-11-03 09:47:25",
+    "fileName": "Toolbox_5.1.1.9.apk",
     "size": 10621234
   },
   "history": [
+    {
+      "versionName": "5.1.1.8",
+      "versionCode": 5118,
+      "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/x1/Toolbox_5.1.1.8.apk",
+      "changelog": "5.1.1.8\n· 随机话术池开放编辑：群发页新增「随机话术池」卡片，池子存库随备份走；缺话术的分组不再阻断启动，运行时自动回退（未分组 > 池子 > 内置默认）\n· 同义替换规则开放编辑：群发页新增「同义替换规则」卡片，每行「原词=替身1|替身2」，替身留空即删除原词\n· 联系方式 100% 必带，写法删掉「微信」（剩 +V / V： / VX 随机）\n· 发送完返回列表后到点下一个群的间隔加长约 1 秒（2.0~2.8s 随机）",
+      "updateTime": "2026-11-02 18:14:05",
+      "fileName": "Toolbox_5.1.1.8.apk",
+      "size": 10621234
+    },
     {
       "versionName": "5.1.1.7",
       "versionCode": 5117,
