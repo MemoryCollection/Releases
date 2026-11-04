@@ -1,14 +1,23 @@
 {
   "current": {
-    "versionName": "1.0.0.3",
-    "versionCode": 1003,
-    "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/shiye/shiye_1.0.0.3.apk",
+    "versionName": "1.0.0.4",
+    "versionCode": 1004,
+    "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/shiye/shiye_1.0.0.4.apk",
     "changelog": "常规更新",
-    "updateTime": "2026-10-28T10:10:14Z",
-    "fileName": "shiye_1.0.0.3.apk",
-    "size": 55613095
+    "updateTime": "2026-11-04T01:46:35Z",
+    "fileName": "shiye_1.0.0.4.apk",
+    "size": 55662299
   },
   "history": [
+    {
+      "versionName": "1.0.0.4",
+      "versionCode": 1004,
+      "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/shiye/shiye_1.0.0.4.apk",
+      "changelog": "常规更新",
+      "updateTime": "2026-11-04T01:46:35Z",
+      "fileName": "shiye_1.0.0.4.apk",
+      "size": 55662299
+    },
     {
       "versionName": "1.0.0.3",
       "versionCode": 1003,
