@@ -3,7 +3,7 @@
     "versionName": "5.1.2.4",
     "versionCode": 5124,
     "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/x1/Toolbox_5.1.2.4.apk",
-    "changelog": "release 5.1.2.4",
+    "changelog": "5.1.2.4\n· 修复「已在首页但 Tab 点击失败」的假失败：底部标签不再按节点下标取（顺序取决于窗口枚举，取到空就一次点击都没发生），改按屏幕几何位置定位「通讯录」\n· 回首页前先确认真实前台：微信被切到后台时，不再把返回键发给其他应用\n· 切标签失败改为 3 次重试，日志区分「读不到节点」与「注入被拒」\n· 适配 AGP 9.5：升级后 release 构建会卡在 Compose Preview runfiles 上，已补构建配置\n· 更新检查地址改走带令牌的代理前缀",
     "updateTime": "2026-11-05 13:10:05",
     "fileName": "Toolbox_5.1.2.4.apk",
     "size": 10571302
