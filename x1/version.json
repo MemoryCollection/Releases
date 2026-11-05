@@ -1,14 +1,23 @@
 {
   "current": {
-    "versionName": "5.1.2.3",
-    "versionCode": 5123,
-    "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/x1/Toolbox_5.1.2.3.apk",
-    "changelog": "release 5.1.2.3",
-    "updateTime": "2026-11-03 17:21:26",
-    "fileName": "Toolbox_5.1.2.3.apk",
-    "size": 10621358
+    "versionName": "5.1.2.4",
+    "versionCode": 5124,
+    "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/x1/Toolbox_5.1.2.4.apk",
+    "changelog": "release 5.1.2.4",
+    "updateTime": "2026-11-05 13:10:05",
+    "fileName": "Toolbox_5.1.2.4.apk",
+    "size": 10571302
   },
   "history": [
+    {
+      "versionName": "5.1.2.3",
+      "versionCode": 5123,
+      "url": "https://gh.6qu.top/https://raw.githubusercontent.com/MemoryCollection/Releases/main/x1/Toolbox_5.1.2.3.apk",
+      "changelog": "release 5.1.2.3",
+      "updateTime": "2026-11-03 17:21:26",
+      "fileName": "Toolbox_5.1.2.3.apk",
+      "size": 10621358
+    },
     {
       "versionName": "5.1.2.1",
       "versionCode": 5121,
